@@ -15,7 +15,7 @@ if __name__ == "__main__":
     coor_1 = Coordenada(3, 30)
     coor_2 = Coordenada(4, 8)
     print(coor_1.distancia(coor_2))
-    # Cordenada es instacia de Coordenada
+    # Cordenada es instancia de Coordenada
     print(isinstance(coor_2, Coordenada))
-    # Cordenada NO es instacia de Coordenada
+    # Cordenada NO es instancia de Coordenada
     print(isinstance('HOLA', Coordenada))
