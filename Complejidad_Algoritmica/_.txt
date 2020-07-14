@@ -1,0 +1,16 @@
+Notación asintótica
+Big O notation
+No importan variaciones pequeñas
+El enfoque se centra en lo que pasa conforme el tamaño del problema se acerca al infinito.
+Mejor de los casos, promedio, peor de los casos
+Nada más importan el término de mayor tamaño
+Ley de la suma (n)
+Ley multiplicación (n^2)
+Ley recursiva (a^n)
+
+
+Para el Big O, siempre se tomará en cuenta el termino con el crecimiento más rápido. En un polinomio el de mayor exponente.
+Constante: no crecimiento
+Un loop: crecimiento lineal (Ley de la suma (n))
+Un loop anidado en un loop: crecimiento polinomial: cuadratico, cúbico … (Ley multiplicación (n^a))
+Llamadas recursivas: crecimiento exponencial. (Ley recursiva (a^n))
